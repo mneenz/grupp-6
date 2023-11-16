@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google News - About us</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Playfair+Display:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div id="branding">
+        <img src="assets/google-logo-animation.gif" />
+      </div>
+      <h1>News</h1>
+      <!--Menu-->
+      <nav id="menu" class="menu">
+        <ul>
+          <li>
+            <a href="/Offerings">What we do</a>
+          </li>
+          <li>
+            <a href="/About-us">Who we are</a>
+          </li>
+          <li>
+            <a href="/Customers">Customers</a>
+          </li>
+          <li>
+            <a href="/Careers">Career</a>
+          </li>
+          <li>
+            <a href="/Investor-relations">IR</a>
+          </li>
+          <li>
+            <a href="/Latest" class="current">Latest</a>
+          </li>
+          <li>
+            <a href="/Contact">Contact</a>
+          </li>
+          <li class="search">
+            <input
+              type="text"
+              id="searchInput"
+              onkeyup="searchFunction()"
+              placeholder="Search titles"
+              title="Type in title search term"
+            />
+          </li>
+          <li class="icon">
+            <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <img
+        src="https://images.unsplash.com/photo-1598260859730-afd78256573d?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        class="imgheader"
+        alt="A man reading a newspaper"
+        width="800"
+        height="387"
+      />
+
+      <br />
+
+      <section id="about">
+        <strong>
+          <h2>
+            5000<br />
+            People employed
+          </h2>
+
+          <h2>
+            1967 <br />
+            Year founded
+          </h2>
+
+          <h2>
+            50+ <br />
+            Countries with subscribers
+          </h2>
+
+          <h2>
+            100<br />
+            News per day
+          </h2>
+        </strong>
+      </section>
+      <br />
+      <article id="ourstory">
+        <h3>Our story</h3>
+        <br />
+        <p>
+          Google News, the brainchild of tech wizards who looked at the world
+          and thought, 'News should not be this hard to track!' So, they tapped
+          into their vast knowledge reservoirs, fueled by endless cups of
+          artisan coffee and late-night coding marathons. Their mission? To
+          revolutionize the way the globe consumes news. 'Why just follow the
+          news,' they joked, 'when you can Google it?' With a sprinkle of
+          algorithm magic and a dash of user-friendly design, they created a
+          platform that gathers all the world's stories, serving them up hot and
+          fresh, daily. Why, you ask? Because the team believed in the power of
+          informed decisions, and knew that the right news at the right time
+          could change lives. They were not just techies; they were digital
+          revolutionaries, fighting the good fight against misinformation.
+          'We're like superheroes,' one quipped, 'but our capes are really just
+          coffee-stained shirts.' Their weapon of choice? A sleek, smart news
+          aggregator that’s as intuitive as it is comprehensive. They dared to
+          dream of a world where news is accessible, reliable, and, dare we say,
+          fun to read. 'If we had a dime for every article we processed,' one
+          developer laughed, 'we'd have... well, a lot of dimes.' In a sea of
+          biased and bland news sources, Google News emerged as a beacon of
+          hope, a place where diverse perspectives meet and quality journalism
+          is celebrated. This platform isn’t just about delivering news; it’s
+          about weaving a tapestry of global narratives, bringing to light the
+          stories that shape our world. Their journey hasn’t been without
+          challenges, but their resolve is as strong as their coffee. In the
+          face of obstacles, they stand tall, dedicated to the cause of
+          delivering news that's not only fast and factual but also a little bit
+          fabulous.
+        </p>
+      </article>
+
+      <br />
+
+      <section id="team">
+        <!-- Meet the team sektion med kontaktbok: -->
+
+        <h3>Meet the team</h3>
+        <div id="people"></div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+  <!--JS Scripts-->
+  <script type="text/javascript" src="./assets/js/people.js"></script>
+</html>
