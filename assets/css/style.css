@@ -510,7 +510,10 @@ article#article.show .info .date-author {
 }
 
 .wwa {
-  border: 1px solid #ccc;
+  font-family: playfair-display;
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 20px;
   width: 100%; /* Försäkrar att alla rutor har samma bredd */
   box-sizing: border-box; /* Inkluderar padding och gränser i bredden */
 }
