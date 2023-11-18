@@ -206,36 +206,36 @@ article#article {
 }
 
 /* CSS till nav */
-
 .flex-container {
   display: flex;
-  flex-direction: column; /* Kolumner, inte rader */
-}
+  flex-direction: column; // Kolumner, inte rader
 
-.row {
-  display: flex;
-}
+  .row {
+    display: flex;
+  }
 
-.wwa {
-  font-family: playfair-display;
-  font-size: 25px;
-  font-weight: 400;
-  padding-top: 20px;
-  width: 100%; /* Försäkrar att alla rutor har samma bredd */
-  box-sizing: border-box; /* Inkluderar padding och gränser i bredden */
-}
+  .wwa {
+    font-family: playfair-display;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 20px;
+    width: 100%; // Försäkrar att alla rutor har samma bredd
+    box-sizing: border-box; // Inkluderar padding och gränser i bredden
+  }
 
-.nav3 {
-  padding-top: 20px;
-  padding-left: 60px;
-  background-color: red;
-  width: 100%; /* Försäkrar att alla rutor har samma bredd */
-  box-sizing: border-box; /* Inkluderar padding och gränser i bredden */
-}
-.nav4 {
-  padding-left: 60px;
-  border: 1px solid #ccc;
-  background-color: red;
-  width: 100%; /* Försäkrar att alla rutor har samma bredd */
-  box-sizing: border-box; /* Inkluderar padding och gränser i bredden */
+  .nav3 {
+    padding-top: 20px;
+    padding-left: 60px;
+    background-color: red;
+    width: 100%; // Försäkrar att alla rutor har samma bredd
+    box-sizing: border-box; // Inkluderar padding och gränser i bredden
+  }
+
+  .nav4 {
+    padding-left: 60px;
+    border: 1px solid #ccc;
+    background-color: red;
+    width: 100%; // Försäkrar att alla rutor har samma bredd
+    box-sizing: border-box; // Inkluderar padding och gränser i bredden
+  }
 }
