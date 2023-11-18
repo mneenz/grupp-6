@@ -569,6 +569,36 @@ footer nav a:hover, footer nav a:active, footer nav a:visited {
 }
 
 /*Footer SASS file*/
+.persons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+.persons .person {
+  margin: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+.persons .person img {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+  height: auto;
+}
+.persons .person h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.persons .person p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/*Footer SASS file*/
 html {
   width: 100%;
   margin: 0;
