@@ -516,6 +516,7 @@ article#article.show .info .date-author {
   box-sizing: border-box;
 }
 .flex-container .nav3 {
+  font-weight: 600;
   padding-top: 20px;
   width: 100%;
   box-sizing: border-box;
