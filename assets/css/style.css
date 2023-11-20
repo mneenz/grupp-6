@@ -529,6 +529,13 @@ article#article.show .info .date-author {
 
 /*Articles SASS file*/
 footer {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #CCC;
+  border-top: 1px solid #CCC;
+}
+
+footer {
   background-color: white;
   padding: 10px;
   padding-top: 30px;
