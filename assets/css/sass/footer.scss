@@ -1,0 +1,51 @@
+$footer-background: white;
+$footer-colour: black;
+$link-colour: inherit;
+$link-hover-colour: #555;
+
+footer {
+    background-color: $footer-background;
+    padding: 10px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: $footer-colour;
+
+    .footer-section {
+        flex-grow: 1;
+        margin-right: 20px;
+
+        p {
+            margin-top: 5px;
+        }
+    }
+
+    strong {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        a {
+            color: $link-colour;
+            text-decoration: none;
+            cursor: pointer;
+
+            &:hover,
+            &:active,
+            &:visited {
+                color: $link-hover-colour;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.Copyright {
+    text-align: right;
+}
