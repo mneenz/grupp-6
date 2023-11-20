@@ -508,24 +508,21 @@ article#article.show .info .date-author {
   display: flex;
 }
 .flex-container .wwa {
+  width: 100%;
   font-family: playfair-display;
   font-size: 25px;
   font-weight: 400;
   padding-top: 20px;
-  width: 100%;
   box-sizing: border-box;
 }
 .flex-container .nav3 {
+  font-weight: 600;
   padding-top: 20px;
-  padding-left: 60px;
-  background-color: red;
   width: 100%;
   box-sizing: border-box;
 }
 .flex-container .nav4 {
-  padding-left: 60px;
-  border: 1px solid #ccc;
-  background-color: red;
+  padding-bottom: 60px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -566,6 +563,36 @@ footer nav a:hover, footer nav a:active, footer nav a:visited {
 
 .Copyright {
   text-align: right;
+}
+
+/*Footer SASS file*/
+.persons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+.persons .person {
+  margin: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+}
+.persons .person img {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+  height: auto;
+}
+.persons .person h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.persons .person p {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #666;
 }
 
 /*Footer SASS file*/
