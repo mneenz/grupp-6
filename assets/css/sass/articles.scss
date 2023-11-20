@@ -208,30 +208,30 @@ article#article {
 /* CSS till nav */
 .flex-container {
   display: flex;
-  flex-direction: column; // Kolumner, inte rader
+  flex-direction: column;
 
   .row {
     display: flex;
   }
 
   .wwa {
-    width: 100%; // Försäkrar att alla rutor har samma bredd
+    width: 100%;
     font-family: playfair-display;
     font-size: 25px;
     font-weight: 400;
     padding-top: 20px;
-    box-sizing: border-box; // Inkluderar padding och gränser i bredden
+    box-sizing: border-box;
   }
 
   .nav3 {
     padding-top: 20px;
-    width: 100%; // Försäkrar att alla rutor har samma bredd
-    box-sizing: border-box; // Inkluderar padding och gränser i bredden
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .nav4 {
     padding-bottom: 60px;
-    width: 100%; // Försäkrar att alla rutor har samma bredd
-    box-sizing: border-box; // Inkluderar padding och gränser i bredden
+    width: 100%;
+    box-sizing: border-box;
   }
 }
