@@ -215,24 +215,22 @@ article#article {
   }
 
   .wwa {
+    width: 100%; // Försäkrar att alla rutor har samma bredd
     font-family: playfair-display;
     font-size: 25px;
     font-weight: 400;
     padding-top: 20px;
-    width: 100%; // Försäkrar att alla rutor har samma bredd
     box-sizing: border-box; // Inkluderar padding och gränser i bredden
   }
 
   .nav3 {
     padding-top: 20px;
-    padding-left: 60px;
     width: 100%; // Försäkrar att alla rutor har samma bredd
     box-sizing: border-box; // Inkluderar padding och gränser i bredden
   }
 
   .nav4 {
-    padding-left: 60px;
-    border: 1px solid #ccc;
+    padding-bottom: 60px;
     width: 100%; // Försäkrar att alla rutor har samma bredd
     box-sizing: border-box; // Inkluderar padding och gränser i bredden
   }
