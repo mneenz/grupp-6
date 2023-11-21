@@ -215,9 +215,8 @@ article#article {
   }
 
   .wwa {
-    width: 100%;
+    width: 25%;
     font-family: playfair-display;
-    font-size: 25px;
     font-weight: 400;
     padding-top: 20px;
     box-sizing: border-box;
@@ -235,4 +234,16 @@ article#article {
     width: 100%;
     box-sizing: border-box;
   }
+}
+
+.ikoner {
+  text-align: right;
+}
+
+.imgheader {
+  width: 115%;
+  height: 387px;
+  object-fit: cover;
+  padding-bottom: 36px;
+  margin-left: -7%;
 }
