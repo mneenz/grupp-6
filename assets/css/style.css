@@ -508,9 +508,8 @@ article#article.show .info .date-author {
   display: flex;
 }
 .flex-container .wwa {
-  width: 100%;
+  width: 25%;
   font-family: playfair-display;
-  font-size: 25px;
   font-weight: 400;
   padding-top: 20px;
   box-sizing: border-box;
@@ -525,6 +524,18 @@ article#article.show .info .date-author {
   padding-bottom: 60px;
   width: 100%;
   box-sizing: border-box;
+}
+
+.ikoner {
+  text-align: right;
+}
+
+.imgheader {
+  width: 115%;
+  height: 387px;
+  object-fit: cover;
+  padding-bottom: 36px;
+  margin-left: -7%;
 }
 
 /*Articles SASS file*/
@@ -620,7 +631,8 @@ body {
   html.touch *:hover {
     pointer-events: none !important;
   }
-  html, body {
+  html,
+  body {
     width: 100% !important;
     margin: 0px !important;
     overflow-x: hidden !important;
