@@ -542,6 +542,7 @@ footer {
   padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   color: black;
 }
 footer .footer-section {
