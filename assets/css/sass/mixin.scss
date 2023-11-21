@@ -10,29 +10,38 @@
 }
 
 @-webkit-keyframes moveUp {
-  0% { }
-  100% { -webkit-transform: translateY(0); opacity: 1;}
+  0% {
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 @keyframes moveUp {
-  0% { }
-  100% { -webkit-transform: translateY(0); transform: translateY(0); opacity: 1; }
+  0% {
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 /*Moving up fade in animation*/
 .moveUp {
-  opacity:0;
+  opacity: 0;
   -webkit-transform: translateY(200px); /*Taken from mixin.scss*/
-  transform: translateY(200px) ; /*Taken from mixin.scss*/
+  transform: translateY(200px); /*Taken from mixin.scss*/
   -moz-transform: translateY(200px); /*Taken from mixin.scss*/
-  -moz-animation:  moveUp 1s ease forwards; /*Taken from mixin.scss*/
+  -moz-animation: moveUp 1s ease forwards; /*Taken from mixin.scss*/
   -webkit-animation: moveUp 1s ease forwards; /*Taken from mixin.scss*/
   animation: moveUp 1s ease forwards; /*Taken from mixin.scss*/
 }
 
 /*Buttons*/
 .btn {
-  float:right;
+  float: right;
   position: relative;
   padding: 10px;
   width: auto;
@@ -43,11 +52,11 @@
   background: $primary-color;
   font-weight: bold;
   color: white !important;
-  @include transition(all .3s); /*Taken from mixin.scss*/
+  @include transition(all 0.3s); /*Taken from mixin.scss*/
 
   &:hover {
     padding-right: 30px;
-    background:$link-hover;
+    background: $link-hover;
   }
 
   &:before {
@@ -62,11 +71,11 @@
     transition: all 0.3s;
     right: -20px;
     top: 0;
-    opacity:0;
+    opacity: 0;
   }
 
   &:hover:before {
     right: 8px;
-    opacity:1;
+    opacity: 1;
   }
 }
