@@ -532,10 +532,11 @@ article#article.show .info .date-author {
 }
 
 .imgheader {
-  width: 100%;
+  width: 115%;
   height: 387px;
   object-fit: cover;
   padding-bottom: 36px;
+  margin-left: -7%;
 }
 
 /*Articles SASS file*/
@@ -631,7 +632,8 @@ body {
   html.touch *:hover {
     pointer-events: none !important;
   }
-  html, body {
+  html,
+  body {
     width: 100% !important;
     margin: 0px !important;
     overflow-x: hidden !important;
