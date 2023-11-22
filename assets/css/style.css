@@ -537,7 +537,7 @@ article#article.show .info .date-author {
 }
 
 /*Articles SASS file*/
-footer {
+.line {
   display: block;
   width: 100%;
   border-bottom: 1px solid #CCC;
@@ -546,6 +546,7 @@ footer {
 
 footer {
   background-color: white;
+  margin-top: 25px;
   padding: 10px;
   padding-top: 30px;
   padding-bottom: 50px;
