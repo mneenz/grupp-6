@@ -3,15 +3,19 @@ $footer-colour: black;
 $link-colour: inherit;
 $link-hover-colour: #555;
 
-footer {
-    display: block;
-    width: 100%;
+.line {
     border-bottom: 1px solid $light-grey;
     border-top: 1px solid $light-grey;
+    display: block;
+    width: 105%;
+    margin-left: -5%;
+    padding-left: 5%;
+    margin-top: 25px;
 }
 
 footer {
     background-color: $footer-background;
+    margin-top: 25px;
     padding: 10px;
     padding-top: 30px;
     padding-bottom: 50px;
