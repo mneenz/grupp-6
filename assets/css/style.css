@@ -128,11 +128,6 @@ h2 {
   line-height: 1.5625rem;
 }
 
-#team h3 {
-  /* Lägger till bottenutfyllnad för att skapa utrymme mellan rubriken och "people" */
-  margin-bottom: 10px;
-}
-
 /*------LINKS-----*/
 a {
   color: #2a5db0;
@@ -543,13 +538,14 @@ article#article.show .info .date-author {
 
 /*Articles SASS file*/
 .line {
-  border-bottom: 1px solid #CCC;
   border-top: 1px solid #CCC;
   display: block;
   width: 105%;
   margin-left: -5%;
   padding-left: 5%;
-  margin-top: 25px;
+  padding-bottom: 1rem;
+  margin-top: 1rem; /* den här linjen finns på många ställen. Dvs inte bra att ha för stor padding. 
+  Bättre styra det på respektive avsnitt istället */
 }
 
 footer {
@@ -637,9 +633,15 @@ footer nav a:hover, footer nav a:active, footer nav a:visited {
   line-height: normal;
 }
 
+#team {
+  /* Lägg till bottenutfyllnad för att skapa utrymme under hela sektionen "team" */
+  margin-bottom: 3rem;
+  padding-top: 3rem;
+}
+
 /*People SASS file*/
 .map {
-  margin-bottom: 2%;
+  margin-bottom: 3rem;
 }
 
 /*Map SASS file*/
