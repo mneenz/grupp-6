@@ -1,4 +1,17 @@
 
+// Styling för header ovanför persons
+// Välj alla (finns bara en) h3 under div med id "team"
+#team h3{
+
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0;
+    line-height: normal;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 
 .persons {
     display: flex;
