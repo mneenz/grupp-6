@@ -593,6 +593,7 @@ footer nav a:hover, footer nav a:active, footer nav a:visited {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 35px;
 }
 .persons .person {
