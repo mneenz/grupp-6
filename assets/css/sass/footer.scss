@@ -4,10 +4,13 @@ $link-colour: inherit;
 $link-hover-colour: #555;
 
 .line {
-    display: block;
-    width: 100%;
     border-bottom: 1px solid $light-grey;
     border-top: 1px solid $light-grey;
+    display: block;
+    width: 105%;
+    margin-left: -5%;
+    padding-left: 5%;
+    margin-top: 25px;
 }
 
 footer {
