@@ -128,6 +128,11 @@ h2 {
   line-height: 1.5625rem;
 }
 
+#team h3 {
+  /* Lägger till bottenutfyllnad för att skapa utrymme mellan rubriken och "people" */
+  margin-bottom: 10px;
+}
+
 /*------LINKS-----*/
 a {
   color: #2a5db0;
@@ -675,6 +680,11 @@ body {
   margin: 0 auto;
   display: block;
   overflow: hidden;
+}
+
+#ourstory {
+  /* Added bottom padding to create space between "Our story" and "Meet the team" */
+  padding-bottom: 6rem;
 }
 
 #footer {

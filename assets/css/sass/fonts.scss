@@ -71,6 +71,11 @@ h2 {
 	@include size(20, 25);
 }
 
+#team h3 {
+  /* Lägger till bottenutfyllnad för att skapa utrymme mellan rubriken och "people" */
+  margin-bottom: 10px;
+}
+
 /*------LINKS-----*/
 
 a {

@@ -11,6 +11,11 @@ const people = [
         img: "../assets/img/2.svg"
     },
     {
+        name: "Lily Adams",
+        title: "CCO",
+        img: "../assets/img/10.svg"
+    },
+    {
         name: "Buster Smith",
         title: "CFO",
         img: "../assets/img/3.svg"
@@ -19,6 +24,11 @@ const people = [
         name: "Boo Johnson",
         title: "COO",
         img: "../assets/img/4.svg"
+    },
+    {
+        name: "Bella Lee",
+        title: "CNO",
+        img: "../assets/img/9.svg"
     },
     {
         name: "Cali Lee",
@@ -34,7 +44,22 @@ const people = [
         name: "Callie Wilson",
         title: "CDO",
         img: "../assets/img/7.svg"
-    }
+    },
+    {
+        name: "Whiskers",
+        title: "CMO",
+        img: "../assets/img/11.svg"
+    },
+    {
+        name: "Salem Obama",
+        title: "COO",
+        img: "../assets/img/12.svg"
+    },
+    {
+        name: "Bear CA",
+        title: "CMO",
+        img: "../assets/img/8.svg"
+    },
 ];
 
 
