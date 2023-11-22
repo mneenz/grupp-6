@@ -17,11 +17,12 @@
   </head>
   <body>
     <header id="header" class="header">
-      <div id="branding">
-        <img src="assets/google-logo-animation.gif" />
-      </div>
-      <h1>News</h1>
-      <!--Menu-->
+      <h1>Contact</h1>
+
+  <!-- ====================
+     NAV MENU
+   ==================== -->  
+    
       <nav id="menu" class="menu">
         <ul>
           <li>
@@ -61,6 +62,10 @@
       </nav>
     </header>
 
+<!-- ====================
+     HEADER PHOTO
+   ==================== -->
+
     <main>
       <img
         src="https://uploads-ssl.webflow.com/625db6b0dccd866cc41c64cf/629e327c34ac71597958f321_experten_zentren-p-800.jpeg"
@@ -69,14 +74,16 @@
         width="800"
         height="387"
       />
-
       <br />
+
+<!-- ====================
+     GET IN TOUCH
+   ==================== -->
 
       <section id="nav">
         <h2>Get in touch</h2>
 
         <br />
-        <!-- Ska vi in med Ellens nav här månntro? /Ragna -->
         <article>
           <div class="flex-container">
             <div class="row">
@@ -98,65 +105,87 @@
                 job@googlenews.com <br />
                 internship@googlenews.com
               </p>
-              <p class="nav4">
-                <i class="fa fa-facebook-official" style="font-size: 28px"></i>
+              <p class="nav4 ikoner">
                 <i class="fa fa-twitter-square" style="font-size: 28px"></i>
                 <i class="fa fa-linkedin-square" style="font-size: 28px"></i>
+                <i class="fa fa-facebook-official" style="font-size: 28px"></i>
               </p>
             </div>
           </div>
         </article>
 
-        <div class="map"></div>
+<!-- ====================
+     GOOGLE MAP
+   ==================== -->
+
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12418.237486245194!2d114.17237181416773!3d22.27934995002153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sse!4v1700488576730!5m2!1sen!2sse"
+            width="81%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </section>
 
-      <!-- Meet the team sektion med kontaktbok: -->
-      <section id="team">
-        <!-- Meet the team sektion med kontaktbok: -->
+      <br />
 
+<!-- ====================
+     MEET THE TEAM
+   ==================== -->
+
+      <section id="team">
         <h3>Meet the team</h3>
         <div id="people"></div>
       </section>
     </main>
 
-    <!--Footer start-->
+<!-- ====================
+     FOOTER
+   ==================== -->
+
     <footer role="contentinfo">
       <!-- About us section -->
       <div class="footer-section">
         <strong>About us</strong>
-          <nav>
-              <ul>
-              <li><a href="#">What we do</a></li>
-              <li><a href="#">Who we are</a></li>
-              </ul>
-          </nav>
+        <nav>
+          <ul>
+            <li><a href="#">What we do</a></li>
+            <li><a href="#">Who we are</a></li>
+          </ul>
+        </nav>
       </div>
-  
+
       <!-- About you section -->
       <div class="footer-section">
         <strong>About you</strong>
-          <nav>
-              <ul>
-              <li><a href="#">Customers</a></li>
-              <li><a href="#">Latest</a></li>
-              </ul>
-          </nav>
+        <nav>
+          <ul>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Latest</a></li>
+          </ul>
+        </nav>
       </div>
-  
+
       <!-- Address section -->
       <div class="footer-section">
         <strong>Address</strong>
-          <nav>
-              <p>Google street 2, <br>
-                526 42 Googleville</p>
-          </nav>
+        <nav>
+          <p>
+            Google street 2, <br />
+            526 42 Googleville
+          </p>
+        </nav>
       </div>
-  
-      <!-- Copyright section -->   
+
+      <!-- Copyright section -->
       <div class="footer-section">
-          <nav class="Copyright">
-       <p>Copyright 2022 Google News</p>
-      </nav>
+        <nav class="Copyright">
+          <p>Copyright 2022 Google News</p>
+        </nav>
       </div>
     </footer>
     <!--Fotter ends-->

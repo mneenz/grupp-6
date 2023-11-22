@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Google News</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--Stylesheets-->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Playfair+Display:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
-    <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700|Playfair+Display:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
   </head>
+
+
   <body>
-
-    
-
     <section role="main" id="wrapper">
-      <!--Header-->
+
+<!-- ====================
+     HEADER
+   ==================== -->
       <header id="header" class="header">
-        <h1>Google News</h1>
-        <!--Menu-->
+
+        <h1>Latest</h1>
+
+<!-- ====================
+     NAV MENU
+   ==================== -->
+
         <nav id="menu" class="menu">
           <ul>
             <li>
@@ -42,7 +52,13 @@
               <a href="contact.html">Contact</a>
             </li>
             <li class="search">
-              <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Search titles" title="Type in title search term">
+              <input
+                type="text"
+                id="searchInput"
+                onkeyup="searchFunction()"
+                placeholder="Search titles"
+                title="Type in title search term"
+              />
             </li>
             <li class="icon">
               <a href="javascript:void(0);" onclick="menuFunction()">&#9776;</a>
@@ -51,55 +67,80 @@
         </nav>
       </header>
 
+<!-- ====================
+     CONTENT SECTION
+   ==================== -->
+
       <section id="content"></section>
-      
+
+<!-- ====================
+     FOOTER
+   ==================== -->
+
       <footer role="contentinfo">
         <!-- About us section -->
         <div class="footer-section">
           <strong>About us</strong>
-            <nav>
-                <ul>
-                <li><a href="#">What we do</a></li>
-                <li><a href="#">Who we are</a></li>
-                </ul>
-            </nav>
+          <nav>
+            <ul>
+              <li><a href="#">What we do</a></li>
+              <li><a href="#">Who we are</a></li>
+            </ul>
+          </nav>
         </div>
-    
+
         <!-- About you section -->
         <div class="footer-section">
           <strong>About you</strong>
-            <nav>
-                <ul>
-                <li><a href="#">Customers</a></li>
-                <li><a href="#">Latest</a></li>
-                </ul>
-            </nav>
+          <nav>
+            <ul>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Latest</a></li>
+            </ul>
+          </nav>
         </div>
-    
+
         <!-- Address section -->
         <div class="footer-section">
           <strong>Address</strong>
-            <nav>
-                <p>Google street 2, <br>
-                  526 42 Googleville</p>
-            </nav>
+          <nav>
+            <p>
+              Google street 2, <br />
+              526 42 Googleville
+            </p>
+          </nav>
         </div>
-    
-        <!-- Copyright section -->   
+
+        <!-- Copyright section -->
         <div class="footer-section">
-            <nav class="Copyright">
-         <p>Copyright 2022 Google News</p>
-        </nav>
+          <nav class="Copyright">
+            <p>Copyright 2022 Google News</p>
+          </nav>
         </div>
       </footer>
-      
-        <!--Wather widget-->
-  <script> !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');</script>
 
+<!-- ====================
+     WEATHER WIDGET.
+     FUNKAR EJ?
+   ==================== -->
+
+      <script>
+        !(function (d, s, id) {
+          var js,
+            fjs = d.getElementsByTagName(s)[0];
+          if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://weatherwidget.io/js/widget.min.js";
+            fjs.parentNode.insertBefore(js, fjs);
+          }
+        })(document, "script", "weatherwidget-io-js");
+      </script>
     </section>
   </body>
   <!--JS Scripts-->
-  <script type="text/javascript" src="./assets/js/menu.js"></script> <!--Mobile menu JS-->
-  <script type="text/javascript" src="./assets/js/request.js"></script> <!--JSON API request JS-->
-
+  <script type="text/javascript" src="./assets/js/menu.js"></script>
+  <!--Mobile menu JS-->
+  <script type="text/javascript" src="./assets/js/request.js"></script>
+  <!--JSON API request JS-->
 </html>

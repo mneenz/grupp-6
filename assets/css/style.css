@@ -302,7 +302,6 @@ a:hover, a:active, a:visited {
 
 /*Close #header*/
 /*Header SASS file*/
-/*! ARTICLE STYLES */
 article#article {
   overflow: hidden;
   position: relative;
@@ -499,7 +498,6 @@ article#article.show .info .date-author {
   overflow: hidden !important;
 }
 
-/* CSS till nav */
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -508,9 +506,8 @@ article#article.show .info .date-author {
   display: flex;
 }
 .flex-container .wwa {
-  width: 100%;
+  width: 25%;
   font-family: playfair-display;
-  font-size: 25px;
   font-weight: 400;
   padding-top: 20px;
   box-sizing: border-box;
@@ -525,6 +522,18 @@ article#article.show .info .date-author {
   padding-bottom: 60px;
   width: 100%;
   box-sizing: border-box;
+}
+
+.ikoner {
+  text-align: right;
+}
+
+.imgheader {
+  width: 115%;
+  height: 387px;
+  object-fit: cover;
+  padding-bottom: 36px;
+  margin-left: -7%;
 }
 
 /*Articles SASS file*/
@@ -579,29 +588,44 @@ footer nav a:hover, footer nav a:active, footer nav a:visited {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 2rem;
+  gap: 35px;
 }
 .persons .person {
-  margin: 1rem;
-  border-radius: 0.5rem;
-  text-align: center;
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11px;
+  padding-top: 1rem;
 }
 .persons .person img {
   display: block;
-  margin: 0 auto;
-  max-width: 150px;
-  height: auto;
+  width: 175px;
+  height: 290px;
+  object-fit: cover;
+}
+.persons .person .nameAndTile {
+  margin-top: 11x;
+  width: 175px;
+  height: 46px;
 }
 .persons .person h3 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-family: Playfair Display;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0;
+  line-height: normal;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .persons .person p {
-  margin-top: 0.5rem;
-  font-size: 1.2rem;
-  color: #666;
+  margin-top: 0;
+  padding-top: 0;
+  font-family: Open Sans;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /*Footer SASS file*/
@@ -629,7 +653,8 @@ body {
   html.touch *:hover {
     pointer-events: none !important;
   }
-  html, body {
+  html,
+  body {
     width: 100% !important;
     margin: 0px !important;
     overflow-x: hidden !important;
@@ -648,7 +673,6 @@ body {
   overflow: hidden;
 }
 
-/*------FOOTER-----*/
 #footer {
   width: 100%;
 }

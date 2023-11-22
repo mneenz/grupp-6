@@ -1,4 +1,6 @@
-/*! ARTICLE STYLES */
+// ====================
+// ARTICLES STYLES
+// ====================
 
 article#article {
   overflow: hidden;
@@ -196,6 +198,10 @@ article#article {
   padding: 2% 0;
 }
 
+// ====================
+// WEATHER WIDGET
+// ====================
+
 .weather-widget-io {
   float: right !important;
   width: 31% !important;
@@ -205,7 +211,10 @@ article#article {
   overflow: hidden !important;
 }
 
-/* CSS till nav */
+// ====================
+// NAV BAR
+// ====================
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -215,9 +224,8 @@ article#article {
   }
 
   .wwa {
-    width: 100%;
+    width: 25%;
     font-family: playfair-display;
-    font-size: 25px;
     font-weight: 400;
     padding-top: 20px;
     box-sizing: border-box;
@@ -235,4 +243,24 @@ article#article {
     width: 100%;
     box-sizing: border-box;
   }
+}
+
+// ====================
+// IKONER
+// ====================
+
+.ikoner {
+  text-align: right;
+}
+
+// ====================
+// HEADER PICTURE
+// ====================
+
+.imgheader {
+  width: 115%;
+  height: 387px;
+  object-fit: cover;
+  padding-bottom: 36px;
+  margin-left: -7%;
 }
