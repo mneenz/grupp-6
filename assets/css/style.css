@@ -537,15 +537,19 @@ article#article.show .info .date-author {
 }
 
 /*Articles SASS file*/
-footer {
-  display: block;
-  width: 100%;
+.line {
   border-bottom: 1px solid #CCC;
   border-top: 1px solid #CCC;
+  display: block;
+  width: 105%;
+  margin-left: -5%;
+  padding-left: 5%;
+  margin-top: 25px;
 }
 
 footer {
   background-color: white;
+  margin-top: 25px;
   padding: 10px;
   padding-top: 30px;
   padding-bottom: 50px;
