@@ -1,54 +1,56 @@
 
 const people = [
-        {
-            name: "John Doe",
-            title: "CEO",
-            img: "../assets/img/portrait-white-man-isolated.png"
-        },
-        {
-            name: "Jane Doe",
-            title: "CTO",
-            img: "../assets/img/close-up-shot-pretty-woman-with-perfect-teeth-dark-clean-skin-having-rest-indoors-smiling-happily-after-received-good-positive-news.png"
-        },
-        {
-            name: "Bob Smith",
-            title: "CFO",
-            img: "../assets/img/handsome-confident-smiling-man-with-hands-crossed-chest.png"
-        },
-        {
-            name: "Alice Johnson",
-            title: "COO",
-            img: "../assets/img/lifestyle-people-emotions-casual-concept-confident-nice-smiling-asian-woman-cross-arms-chest-confident-ready-help-listening-coworkers-taking-part-conversation.png"
-        },
-        {
-            name: "David Lee",
-            title: "CMO",
-            img: "../assets/img/portrait-beautiful-mature-blonde-bearded-guy-with-trendy-hairdo-casual-grey-shirt-smiling.png"
-        },
-        {
-            name: "Maria Rodriguez",
-            title: "CIO",
-            img: "../assets/img/portrait-european-girl-with-tanned-skin-dark-hair.png"
-        },
-        {
-            name: "Emily Wilson",
-            title: "CDO",
-            img: "../assets/img/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction.png"
-        }
-    ];
+    {
+        name: "Baby Joe",
+        title: "CEO",
+        img: "../assets/img/1.svg"
+    },
+    {
+        name: "Annie Doe",
+        title: "CTO",
+        img: "../assets/img/2.svg"
+    },
+    {
+        name: "Buster Smith",
+        title: "CFO",
+        img: "../assets/img/3.svg"
+    },
+    {
+        name: "Boo Johnson",
+        title: "COO",
+        img: "../assets/img/4.svg"
+    },
+    {
+        name: "Cali Lee",
+        title: "CMO",
+        img: "../assets/img/5.svg"
+    },
+    {
+        name: "Abby Rodriguez",
+        title: "CIO",
+        img: "../assets/img/6.svg"
+    },
+    {
+        name: "Callie Wilson",
+        title: "CDO",
+        img: "../assets/img/7.svg"
+    }
+];
+
 
 function populateContactUs() {
-   
-    const vartPeopleDivskaligga = document.getElementById("people");
 
+    const vartPeopleDivskaligga = document.getElementById("people");
     var peopleHTML = "<div class='persons'>";
-    for (let i = 0; i < people.length; i++) {
+    for (var i = 0; i < people.length; i++) {
         const person = people[i];
         peopleHTML += `
             <div class="person">
                 <img src="${person.img}" alt="${person.name}">
-                <h3>${person.name}</h3>
-                <p>${person.title}</p>
+                    <div class="nameAndTile">
+                        <h3>${person.name}</h3>
+                        <p>${person.title}</p>
+                    </div>
             </div>
         `;
     }
@@ -57,3 +59,4 @@ function populateContactUs() {
 }
 
 populateContactUs();
+
