@@ -637,7 +637,12 @@ footer nav a:hover, footer nav a:active, footer nav a:visited {
   line-height: normal;
 }
 
-/*Footer SASS file*/
+/*People SASS file*/
+.map {
+  margin-bottom: 2%;
+}
+
+/*Map SASS file*/
 html {
   width: 100%;
   margin: 0;
