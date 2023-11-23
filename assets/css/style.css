@@ -538,13 +538,14 @@ article#article.show .info .date-author {
 
 /*Articles SASS file*/
 .line {
-  border-bottom: 1px solid #CCC;
   border-top: 1px solid #CCC;
   display: block;
   width: 105%;
   margin-left: -5%;
   padding-left: 5%;
-  margin-top: 5rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem; /* den här linjen finns på många ställen. Dvs inte bra att ha för stor padding. 
+  Bättre styra det på respektive avsnitt istället */
 }
 
 footer {
@@ -588,10 +589,22 @@ footer nav a:hover, footer nav a:active, footer nav a:visited {
 }
 
 /*Footer SASS file*/
+#team h3 {
+  font-family: Playfair Display;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0;
+  line-height: normal;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 .persons {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 35px;
 }
 .persons .person {
@@ -632,9 +645,15 @@ footer nav a:hover, footer nav a:active, footer nav a:visited {
   line-height: normal;
 }
 
+#team {
+  /* Lägg till bottenutfyllnad för att skapa utrymme under hela sektionen "team" */
+  margin-bottom: 3rem;
+  padding-top: 3rem;
+}
+
 /*People SASS file*/
 .map {
-  margin-bottom: 2%;
+  margin-bottom: 3rem;
 }
 
 /*Map SASS file*/
@@ -680,6 +699,11 @@ body {
   margin: 0 auto;
   display: block;
   overflow: hidden;
+}
+
+#ourstory {
+  /* Added bottom padding to create space between "Our story" and "Meet the team" */
+  padding-bottom: 6rem;
 }
 
 #footer {

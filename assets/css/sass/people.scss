@@ -1,9 +1,23 @@
 
+// Styling för header ovanför persons
+// Välj alla (finns bara en) h3 under div med id "team"
+#team h3{
+
+    font-family: Playfair Display;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0;
+    line-height: normal;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 
 .persons {
     display: flex;
-    flex-direction: row; // added this line
-	flex-wrap: wrap; // added this line
+    flex-direction: row; 
+	flex-wrap: wrap;
+    justify-content: space-between;
     gap: 35px;
 
     .person {
@@ -48,4 +62,13 @@
         }
     
     }
+}
+
+// ====================
+// SPACING UNDER PEOPLE
+// ====================
+#team {
+    /* Lägg till bottenutfyllnad för att skapa utrymme under hela sektionen "team" */
+    margin-bottom: 3rem;
+    padding-top: 3rem;
 }
